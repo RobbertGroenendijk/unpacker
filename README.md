@@ -6,13 +6,13 @@ Unpacker is a bash script that allows users to easily copy large amounts of file
 
 To install make sure you a bin directory in your user directory.
 
-```bash
+```console
 mkdir $HOME/.bin
 ```
 
 if you do not yet have a .bashrc and/or .bash_profile file
 
-```bash
+```console
 touch .bashrc
 touch .bash_profile
 ```
@@ -25,15 +25,15 @@ export PATH="$HOME/.bin:$PATH"
 
 Now copy the script to the .bin directory in your home folder and change permissions to executable.
 
-```bash
-chmod x+u $HOME/.bin/unpacker
+```console
+chmod u+x $HOME/.bin/unpacker
 ```
 
 ## Usage
 
 To use type;
 
-```bash
+```console
 unpacker
 ```
 
